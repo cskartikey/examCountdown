@@ -10,9 +10,11 @@ const CountdownTimer: React.FC = () => {
     const difference = targetDate - now;
 
     let days = Math.floor(difference / (1000 * 60 * 60 * 24));
-    let hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
-    let minutes = Math.floor((difference / 1000 / 60) % 60);
-    let seconds = Math.floor((difference / 1000) % 60);
+    let hours = Math.floor(
+      (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
+    );
+    let minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
     return {
       days: padZero(days),
@@ -41,7 +43,7 @@ const CountdownTimer: React.FC = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setTimeLeft(calculateTimeLeft());
-    });
+    }, 1000);
 
     return () => clearTimeout(timer);
   });

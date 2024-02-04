@@ -9,7 +9,7 @@ interface CountdownTimerProps {
 }
 
 const CountdownTimer: React.FC<CountdownTimerProps> = ({
-  targetDate,
+  targetDate = "",
   isHero,
 }) => {
   const calculateTimeLeft = () => {

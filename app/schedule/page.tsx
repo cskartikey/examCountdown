@@ -7,7 +7,7 @@ export default function Schedule() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">
       <div className="overflow-x-auto">
-        <table className="text-white table-auto text-center">
+        <table className="text-white table-auto text-center border-separate border-spacing-x-3 lg:border-spacing-x-20">
           <thead>
             <tr className="text-sm lg:text-3xl">
               <th>date</th>
@@ -20,7 +20,7 @@ export default function Schedule() {
               <th scope="row" className="py-2 whitespace-nowrap">
                 20/2
               </th>
-              <td>chem/accounts</td>
+              <td>chem/acc</td>
               <td>
                 <CountdownTimer targetDate="2024-02-20" isHero={false} />
               </td>
@@ -38,7 +38,7 @@ export default function Schedule() {
               <th scope="row" className="py-2 whitespace-nowrap">
                 22/2
               </th>
-              <td>physics/commerce</td>
+              <td>phy/comm</td>
               <td>
                 <CountdownTimer targetDate="2024-02-22" isHero={false} />
               </td>
@@ -128,7 +128,7 @@ export default function Schedule() {
               <th scope="row" className="py-2 whitespace-nowrap">
                 05/3
               </th>
-              <td>geo/sociology</td>
+              <td>geo/soc</td>
               <td>
                 <CountdownTimer targetDate="2024-03-05" isHero={false} />
               </td>
@@ -137,7 +137,7 @@ export default function Schedule() {
               <th scope="row" className="py-2 whitespace-nowrap">
                 06/3
               </th>
-              <td>legal studies</td>
+              <td>legal</td>
               <td>
                 <CountdownTimer targetDate="2024-03-06" isHero={false} />
               </td>

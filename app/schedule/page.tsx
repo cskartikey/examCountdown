@@ -6,18 +6,18 @@ export const metadata = {
 
 export default function Schedule() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between pt-36">
       <Head>
         <title>Schedule</title>
       </Head>
       <table className="w-4/6 text-white table-auto text-center">
         <thead>
-          <tr className="text-3xl">
+          <tr className="text-lg lg:text-3xl">
             <th>date</th>
             <th>exam</th>
           </tr>
         </thead>
-        <tbody className="text-center text-xl">
+        <tbody className="text-center text-sm lg:text-xl">
           <tr>
             <th scope="row" className="py-2 whitespace-nowrap">
               20/2

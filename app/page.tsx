@@ -11,7 +11,7 @@ const Home: React.FC = () => {
       <Head>
         <title>grind.</title>
       </Head>
-      <CountdownTimer targetDate="2024-02-20" isHero={true} />
+      <CountdownTimer targetDate="2024-02-20 00:00:00" isHero={true} />
     </div>
   );
 };

@@ -22,7 +22,7 @@ export default function Schedule() {
               </th>
               <td>chem/acc</td>
               <td>
-                <CountdownTimer targetDate="2024-02-20" isHero={false} />
+                <CountdownTimer targetDate="2024-02-20 00:00:00" isHero={false} />
               </td>
             </tr>
             <tr>
@@ -31,7 +31,7 @@ export default function Schedule() {
               </th>
               <td>eng lang</td>
               <td>
-                <CountdownTimer targetDate="2024-02-21" isHero={false} />
+                <CountdownTimer targetDate="2024-02-21 00:00:00" isHero={false} />
               </td>
             </tr>
             <tr>
@@ -40,7 +40,7 @@ export default function Schedule() {
               </th>
               <td>phy/comm</td>
               <td>
-                <CountdownTimer targetDate="2024-02-22" isHero={false} />
+                <CountdownTimer targetDate="2024-02-22 00:00:00" isHero={false} />
               </td>
             </tr>
             <tr>
@@ -49,7 +49,7 @@ export default function Schedule() {
               </th>
               <td>ped</td>
               <td>
-                <CountdownTimer targetDate="2024-02-23" isHero={false} />
+                <CountdownTimer targetDate="2024-02-23 00:00:00" isHero={false} />
               </td>
             </tr>
             <tr>
@@ -58,7 +58,7 @@ export default function Schedule() {
               </th>
               <td>eng lit</td>
               <td>
-                <CountdownTimer targetDate="2024-02-24" isHero={false} />
+                <CountdownTimer targetDate="2024-02-24 00:00:00" isHero={false} />
               </td>
             </tr>
             <tr>
@@ -67,7 +67,7 @@ export default function Schedule() {
               </th>
               <td>maths</td>
               <td>
-                <CountdownTimer targetDate="2024-02-26" isHero={false} />
+                <CountdownTimer targetDate="2024-02-26 00:00:00" isHero={false} />
               </td>
             </tr>
             <tr>
@@ -76,7 +76,7 @@ export default function Schedule() {
               </th>
               <td>biotech/cs</td>
               <td>
-                <CountdownTimer targetDate="2024-02-27" isHero={false} />
+                <CountdownTimer targetDate="2024-02-27 00:00:00" isHero={false} />
               </td>
             </tr>
             <tr>
@@ -85,7 +85,7 @@ export default function Schedule() {
               </th>
               <td>bio/econ</td>
               <td>
-                <CountdownTimer targetDate="2024-02-28" isHero={false} />
+                <CountdownTimer targetDate="2024-02-28 00:00:00" isHero={false} />
               </td>
             </tr>
             <tr>
@@ -94,7 +94,7 @@ export default function Schedule() {
               </th>
               <td>pol sci</td>
               <td>
-                <CountdownTimer targetDate="2024-02-29" isHero={false} />
+                <CountdownTimer targetDate="2024-02-29 00:00:00" isHero={false} />
               </td>
             </tr>
             <tr>
@@ -103,7 +103,7 @@ export default function Schedule() {
               </th>
               <td>history</td>
               <td>
-                <CountdownTimer targetDate="2024-03-01" isHero={false} />
+                <CountdownTimer targetDate="2024-03-01 00:00:00" isHero={false} />
               </td>
             </tr>
             <tr>
@@ -112,7 +112,7 @@ export default function Schedule() {
               </th>
               <td>psych</td>
               <td>
-                <CountdownTimer targetDate="2024-03-02" isHero={false} />
+                <CountdownTimer targetDate="2024-03-02 00:00:00" isHero={false} />
               </td>
             </tr>
             <tr>
@@ -121,7 +121,7 @@ export default function Schedule() {
               </th>
               <td>hindi</td>
               <td>
-                <CountdownTimer targetDate="2024-03-04" isHero={false} />
+                <CountdownTimer targetDate="2024-03-04 00:00:00" isHero={false} />
               </td>
             </tr>
             <tr>
@@ -130,7 +130,7 @@ export default function Schedule() {
               </th>
               <td>geo/soc</td>
               <td>
-                <CountdownTimer targetDate="2024-03-05" isHero={false} />
+                <CountdownTimer targetDate="2024-03-05 00:00:00" isHero={false} />
               </td>
             </tr>
             <tr>
@@ -139,7 +139,7 @@ export default function Schedule() {
               </th>
               <td>legal</td>
               <td>
-                <CountdownTimer targetDate="2024-03-06" isHero={false} />
+                <CountdownTimer targetDate="2024-03-06 00:00:00" isHero={false} />
               </td>
             </tr>
           </tbody>

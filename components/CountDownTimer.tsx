@@ -63,7 +63,7 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({
   return (
     <div className="flex flex-col items-center justify-center text-center text-white">
       {isHero ? (
-        <h1 className="text-3xl lg:text-5xl">{`${timeLeft.days}:${timeLeft.hours}:${timeLeft.minutes}:${timeLeft.seconds}`}</h1>
+        <h1 className="text-3xl lg:text-5xl">Good luck for the exams!</h1>
       ) : (
         <h1 className="text-sm lg:text-xl">{`${timeLeft.dayDec}`}</h1>
       )}
